@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC74DD721A6D94B500EB32CF /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC74DD671A6D94B500EB32CF /* Dictionary.cpp */; };
+		CC74DD731A6D94B500EB32CF /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC74DD691A6D94B500EB32CF /* Game.cpp */; };
+		CC74DD741A6D94B500EB32CF /* LetterBag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC74DD6B1A6D94B500EB32CF /* LetterBag.cpp */; };
+		CC74DD751A6D94B500EB32CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC74DD6D1A6D94B500EB32CF /* main.cpp */; };
+		CC74DD761A6D94B500EB32CF /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC74DD6E1A6D94B500EB32CF /* Player.cpp */; };
+		CC74DD771A6D94B500EB32CF /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC74DD701A6D94B500EB32CF /* Utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC74DD5A1A6D948A00EB32CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC74DD5C1A6D948A00EB32CF /* Brabble */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Brabble; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC74DD661A6D94B500EB32CF /* brabblewords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = brabblewords.txt; path = Brabble/brabblewords.txt; sourceTree = SOURCE_ROOT; };
+		CC74DD671A6D94B500EB32CF /* Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dictionary.cpp; sourceTree = "<group>"; };
+		CC74DD681A6D94B500EB32CF /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		CC74DD691A6D94B500EB32CF /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		CC74DD6A1A6D94B500EB32CF /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		CC74DD6B1A6D94B500EB32CF /* LetterBag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterBag.cpp; sourceTree = "<group>"; };
+		CC74DD6C1A6D94B500EB32CF /* LetterBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterBag.h; sourceTree = "<group>"; };
+		CC74DD6D1A6D94B500EB32CF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Brabble/main.cpp; sourceTree = SOURCE_ROOT; };
+		CC74DD6E1A6D94B500EB32CF /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		CC74DD6F1A6D94B500EB32CF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		CC74DD701A6D94B500EB32CF /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		CC74DD711A6D94B500EB32CF /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC74DD591A6D948A00EB32CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC74DD531A6D948A00EB32CF = {
+			isa = PBXGroup;
+			children = (
+				CC74DD5E1A6D948A00EB32CF /* Brabble */,
+				CC74DD5D1A6D948A00EB32CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC74DD5D1A6D948A00EB32CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC74DD5C1A6D948A00EB32CF /* Brabble */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC74DD5E1A6D948A00EB32CF /* Brabble */ = {
+			isa = PBXGroup;
+			children = (
+				CC74DD661A6D94B500EB32CF /* brabblewords.txt */,
+				CC74DD671A6D94B500EB32CF /* Dictionary.cpp */,
+				CC74DD681A6D94B500EB32CF /* Dictionary.h */,
+				CC74DD691A6D94B500EB32CF /* Game.cpp */,
+				CC74DD6A1A6D94B500EB32CF /* Game.h */,
+				CC74DD6B1A6D94B500EB32CF /* LetterBag.cpp */,
+				CC74DD6C1A6D94B500EB32CF /* LetterBag.h */,
+				CC74DD6D1A6D94B500EB32CF /* main.cpp */,
+				CC74DD6E1A6D94B500EB32CF /* Player.cpp */,
+				CC74DD6F1A6D94B500EB32CF /* Player.h */,
+				CC74DD701A6D94B500EB32CF /* Utils.cpp */,
+				CC74DD711A6D94B500EB32CF /* Utils.h */,
+			);
+			path = Brabble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC74DD5B1A6D948A00EB32CF /* Brabble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC74DD631A6D948A00EB32CF /* Build configuration list for PBXNativeTarget "Brabble" */;
+			buildPhases = (
+				CC74DD581A6D948A00EB32CF /* Sources */,
+				CC74DD591A6D948A00EB32CF /* Frameworks */,
+				CC74DD5A1A6D948A00EB32CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brabble;
+			productName = Brabble;
+			productReference = CC74DD5C1A6D948A00EB32CF /* Brabble */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC74DD541A6D948A00EB32CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = bsaterfiel;
+				TargetAttributes = {
+					CC74DD5B1A6D948A00EB32CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CC74DD571A6D948A00EB32CF /* Build configuration list for PBXProject "Brabble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC74DD531A6D948A00EB32CF;
+			productRefGroup = CC74DD5D1A6D948A00EB32CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC74DD5B1A6D948A00EB32CF /* Brabble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC74DD581A6D948A00EB32CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC74DD741A6D94B500EB32CF /* LetterBag.cpp in Sources */,
+				CC74DD771A6D94B500EB32CF /* Utils.cpp in Sources */,
+				CC74DD721A6D94B500EB32CF /* Dictionary.cpp in Sources */,
+				CC74DD751A6D94B500EB32CF /* main.cpp in Sources */,
+				CC74DD731A6D94B500EB32CF /* Game.cpp in Sources */,
+				CC74DD761A6D94B500EB32CF /* Player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC74DD611A6D948A00EB32CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC74DD621A6D948A00EB32CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC74DD641A6D948A00EB32CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC74DD651A6D948A00EB32CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC74DD571A6D948A00EB32CF /* Build configuration list for PBXProject "Brabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC74DD611A6D948A00EB32CF /* Debug */,
+				CC74DD621A6D948A00EB32CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC74DD631A6D948A00EB32CF /* Build configuration list for PBXNativeTarget "Brabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC74DD641A6D948A00EB32CF /* Debug */,
+				CC74DD651A6D948A00EB32CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC74DD541A6D948A00EB32CF /* Project object */;
+}
